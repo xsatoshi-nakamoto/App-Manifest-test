@@ -26,9 +26,9 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  name: lb-service
+  name: flask-service
   labels:
-    app: lb-service
+    app: flask-service
 spec:
   type: NodePort
   ports:
